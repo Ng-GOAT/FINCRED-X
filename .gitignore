@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Datasets and ML artifacts
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/backend/artifacts/*
+!/backend/artifacts/.gitkeep
+
+# Operating system and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
